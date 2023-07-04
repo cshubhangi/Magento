@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-02T21:48:40 IST" name="Default suite" finished-at="2023-07-02T21:50:21 IST" duration-ms="101243">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="Script1.InValidRegistrionMsg()[pri:0, instance:Yoga_Project.Magento.Script1@7c3fdb62]" name="InValidRegistrionMsg" class="Yoga_Project.Magento.Script1"/>
+        <method signature="Script1.validatePWErrorMsg()[pri:0, instance:Yoga_Project.Magento.Script1@7c3fdb62]" name="validatePWErrorMsg" class="Yoga_Project.Magento.Script1"/>
+        <method signature="Script1.validatePWconfErrorMsg()[pri:0, instance:Yoga_Project.Magento.Script1@7c3fdb62]" name="validatePWconfErrorMsg" class="Yoga_Project.Magento.Script1"/>
+      </group> <!-- ErrorHandling -->
+    </groups>
+    <test started-at="2023-07-02T21:48:40 IST" name="Default test" finished-at="2023-07-02T21:50:21 IST" duration-ms="101243">
+      <class name="Yoga_Project.Magento.Script1">
+        <test-method is-config="true" signature="lounchapp()[pri:0, instance:Yoga_Project.Magento.Script1@7c3fdb62]" started-at="2023-07-02T21:48:40 IST" name="lounchapp" finished-at="2023-07-02T21:48:52 IST" duration-ms="12133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lounchapp -->
+        <test-method signature="InValidRegistrionMsg()[pri:0, instance:Yoga_Project.Magento.Script1@7c3fdb62]" started-at="2023-07-02T21:48:52 IST" name="InValidRegistrionMsg" finished-at="2023-07-02T21:48:55 IST" duration-ms="3396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InValidRegistrionMsg -->
+        <test-method is-config="true" signature="closeapp()[pri:0, instance:Yoga_Project.Magento.Script1@7c3fdb62]" started-at="2023-07-02T21:48:55 IST" name="closeapp" finished-at="2023-07-02T21:48:56 IST" duration-ms="427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+        <test-method is-config="true" signature="lounchapp()[pri:0, instance:Yoga_Project.Magento.Script1@7c3fdb62]" started-at="2023-07-02T21:48:56 IST" name="lounchapp" finished-at="2023-07-02T21:49:04 IST" duration-ms="7974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lounchapp -->
+        <test-method signature="SuccessRegistraionMsg()[pri:0, instance:Yoga_Project.Magento.Script1@7c3fdb62]" started-at="2023-07-02T21:49:04 IST" name="SuccessRegistraionMsg" finished-at="2023-07-02T21:49:10 IST" duration-ms="6153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuccessRegistraionMsg -->
+        <test-method is-config="true" signature="closeapp()[pri:0, instance:Yoga_Project.Magento.Script1@7c3fdb62]" started-at="2023-07-02T21:49:10 IST" name="closeapp" finished-at="2023-07-02T21:49:10 IST" duration-ms="388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+        <test-method is-config="true" signature="lounchapp()[pri:0, instance:Yoga_Project.Magento.Script1@7c3fdb62]" started-at="2023-07-02T21:49:10 IST" name="lounchapp" finished-at="2023-07-02T21:49:18 IST" duration-ms="7825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lounchapp -->
+        <test-method signature="SuccessRegistraionMsgb()[pri:0, instance:Yoga_Project.Magento.Script1@7c3fdb62]" started-at="2023-07-02T21:49:18 IST" name="SuccessRegistraionMsgb" finished-at="2023-07-02T21:49:32 IST" duration-ms="14018" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-ui-id='message-success']/div"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'LAPTOP-US295GG4', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [75c7d728368726f06f42115e295b46f1, findElement {using=xpath, value=//div[@data-ui-id='message-success']/div}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\DHANAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49747}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49747/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 75c7d728368726f06f42115e295b46f1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-ui-id='message-success']/div"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'LAPTOP-US295GG4', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [75c7d728368726f06f42115e295b46f1, findElement {using=xpath, value=//div[@data-ui-id='message-success']/div}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\DHANAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49747}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49747/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 75c7d728368726f06f42115e295b46f1
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at Yoga_Project.Magento.Script1.SuccessRegistraionMsgb(Script1.java:68)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuccessRegistraionMsgb -->
+        <test-method is-config="true" signature="closeapp()[pri:0, instance:Yoga_Project.Magento.Script1@7c3fdb62]" started-at="2023-07-02T21:49:32 IST" name="closeapp" finished-at="2023-07-02T21:49:32 IST" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+        <test-method is-config="true" signature="lounchapp()[pri:0, instance:Yoga_Project.Magento.Script1@7c3fdb62]" started-at="2023-07-02T21:49:32 IST" name="lounchapp" finished-at="2023-07-02T21:50:00 IST" duration-ms="27470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lounchapp -->
+        <test-method signature="validatePWErrorMsg()[pri:0, instance:Yoga_Project.Magento.Script1@7c3fdb62]" started-at="2023-07-02T21:50:00 IST" name="validatePWErrorMsg" finished-at="2023-07-02T21:50:09 IST" duration-ms="9243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePWErrorMsg -->
+        <test-method is-config="true" signature="closeapp()[pri:0, instance:Yoga_Project.Magento.Script1@7c3fdb62]" started-at="2023-07-02T21:50:09 IST" name="closeapp" finished-at="2023-07-02T21:50:10 IST" duration-ms="1238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+        <test-method is-config="true" signature="lounchapp()[pri:0, instance:Yoga_Project.Magento.Script1@7c3fdb62]" started-at="2023-07-02T21:50:10 IST" name="lounchapp" finished-at="2023-07-02T21:50:19 IST" duration-ms="8416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lounchapp -->
+        <test-method signature="validatePWconfErrorMsg()[pri:0, instance:Yoga_Project.Magento.Script1@7c3fdb62]" started-at="2023-07-02T21:50:19 IST" name="validatePWconfErrorMsg" finished-at="2023-07-02T21:50:21 IST" duration-ms="1988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePWconfErrorMsg -->
+        <test-method is-config="true" signature="closeapp()[pri:0, instance:Yoga_Project.Magento.Script1@7c3fdb62]" started-at="2023-07-02T21:50:21 IST" name="closeapp" finished-at="2023-07-02T21:50:21 IST" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- Yoga_Project.Magento.Script1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
